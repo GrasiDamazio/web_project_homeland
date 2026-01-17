@@ -76,13 +76,6 @@
   line-height: 1.63;
 }
 
-.button-text {
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-  margin: 0;
-}
-
 @media screen and (max-width: 768px) {
   .nft-shop {
     padding-left: 24px;

@@ -1,3 +1,10 @@
+.nft-shop__button-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
 .nft-shop__button {
   grid-area: button;
   width: 356px;
@@ -26,7 +33,7 @@
   }
 }
 @media screen and (max-width: 680px) {
-  .button-text {
+  .nft-shop__button-text {
     font-size: 14px;
   }
   .nft-shop__button {
