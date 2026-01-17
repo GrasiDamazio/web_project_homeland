@@ -8,7 +8,7 @@
 https://github.com/GrasiDamazio/web_project_homeland.git
 
 ## Descrição do projeto
-Uma introdução sobre os funcionários da Triple Ten que estão espalhados ao redor do mundo. Além das telas maiores, nesse projeto o foco foi trazer responsividade para telas de diferentes tamanhos.
+Uma introdução sobre os funcionários da Triple Ten que estão espalhados ao redor do mundo. Além das telas maiores, nesse projeto o foco foi trazer responsividade para telas de diferentes tamanhos. Este projeto utiliza HTML5 e CSS3 para construir uma galeria responsiva com layout moderno, aplicando Flexbox, Grid Layout e Media Queries.
 
 ## Estrutura do projeto
 
@@ -34,7 +34,7 @@ O bloco possui alinhamento central. Nas telas de 1280px, a imagem segue as marge
 
 ## Main
 
-**Section photo-grid:**
+**Section Informations:**
 
 - Título
 - Parágrafo de citação
@@ -43,6 +43,33 @@ O bloco possui alinhamento central. Nas telas de 1280px, a imagem segue as marge
 
 O bloco foi organizado utilizando display flex, com alinhamento flex-start. A citação e o autor foram organizados utilizando uma <div> para agrupá-los, e no CSS também foi utilizado display flex, com o alinhamento dos itens em flex-end, fazendo com que a citação e o autor fiquem em lados opostos do container.
 
+**Section Photo Grid:**
+
+8 imagens dispostas em:
+- Desktop: 4 colunas e 2 linhas
+- Tablet: 2 colunas e 4 linhas
+- Mobile: 1 coluna e 8 linhas
+
+Galeria criada com CSS Grid exibindo imagens organizadas em colunas.
+
+**Section NFT Shop:**
+
+**Duas colunas**
+
+Coluna da direita:
+- Título
+- Imagem
+- Botão
+
+Coluna da esquerda:
+- Título e nome do artista
+- Parágrafo descritivo
+
+Responsividade
+- Tablet: redução de fontes e espaçamentos.
+- Mobile: layout em coluna única com todos os elementos empilhados
+
+A seção utiliza Grid para organizar os cards em coluna. Cada card usa CSS Grid para distribuir título, artista, imagem, texto e botão de forma estruturada.
 
 
 ## Footer
