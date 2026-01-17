@@ -34,7 +34,7 @@ O bloco possui alinhamento central. Nas telas de 1280px, a imagem segue as marge
 
 ## Main
 
-**1 section contendo:**
+**Section photo-grid:**
 
 - Título
 - Parágrafo de citação
@@ -42,6 +42,8 @@ O bloco possui alinhamento central. Nas telas de 1280px, a imagem segue as marge
 - Parágrafo com o conteúdo
 
 O bloco foi organizado utilizando display flex, com alinhamento flex-start. A citação e o autor foram organizados utilizando uma <div> para agrupá-los, e no CSS também foi utilizado display flex, com o alinhamento dos itens em flex-end, fazendo com que a citação e o autor fiquem em lados opostos do container.
+
+
 
 ## Footer
 

@@ -4,8 +4,15 @@
 }
 
 .footer__author {
+  margin: unset;
   font-size: 14px;
   line-height: 1;
   font-weight: 400;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__author {
+    font-size: 10px;
+  }
 }
